@@ -1,0 +1,57 @@
+.parceiros {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 85.04%),
+    url("../img/image45.png");
+  border-radius: 20px;
+  width: 574px;
+  height: 284px;
+  flex-shrink: 0;
+}
+.parceiros::before {
+  opacity: 0.8;
+}
+.divCard {
+  color: var(--white, #fff);
+  text-align: start;
+  margin-left: 40px;
+  padding-top: 90px;
+}
+.tilte {
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+.txt {
+  width: 181px;
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.btn-confirma {
+  width: 131px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--rosa-primario, #f71963);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  border: none;
+}
+.layoutCard {
+  display: flex;
+  justify-content: space-around;
+}

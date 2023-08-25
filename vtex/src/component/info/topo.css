@@ -1,0 +1,39 @@
+.retagulo248 {
+  width: 1280px;
+  height: 32px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  margin-left: 86px;
+  margin-right: 74px;
+  justify-content: space-around;
+}
+
+.txt-top {
+  display: flex;
+  align-items: center;
+}
+
+.txt-cinza {
+  color: var(--gray-1, #9f9f9f);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.txt-rosa {
+  color: var(--rosa-primario, #f71963);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.icon-top {
+  width: 20px;
+  height: 20px;
+  margin: 0px 9px;
+}

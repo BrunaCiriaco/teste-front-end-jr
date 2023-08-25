@@ -1,0 +1,22 @@
+.txt-veja {
+  color: var(--preto, #3f3f40);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.produtos {
+  width: 589.726px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 10px 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 85.04%),
+    url("../img/appleipad.jpg");
+}
+.layoutProduto {
+  display: flex;
+  justify-content: space-around;
+}

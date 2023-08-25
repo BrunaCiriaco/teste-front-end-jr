@@ -1,0 +1,18 @@
+.linha-horizonta {
+  width: 360px;
+  height: 1px;
+  background: #dedede;
+}
+.title {
+  width: 1138px;
+  height: 72px;
+  color: var(--rosa-primario, #f71963);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin: 0px 151px;
+}

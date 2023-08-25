@@ -1,0 +1,43 @@
+.menu {
+  width: 1280px;
+  height: 40px;
+  margin-left: 86px;
+  margin-right: 74px;
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  background: var(--white, #fff);
+  box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+}
+
+.txt-menu {
+  display: flex;
+  color: var(--gray-1, #9f9f9f);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.crown {
+  width: 34px;
+  display: flex;
+  color: var(--gray-1, #9f9f9f);
+  text-align: center;
+  justify-content: space-between;
+}
+.txt-menu-oferta {
+  color: var(--rosa-primario, #f71963);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}

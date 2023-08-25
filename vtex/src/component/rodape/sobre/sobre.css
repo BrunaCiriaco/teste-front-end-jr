@@ -1,0 +1,30 @@
+.sobre-nos {
+  width: 149px;
+  height: 224px;
+  margin: 59px 0px 42px 93px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+}
+.title-sobre {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.opcao-sobre {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.rede-sociais {
+  display: flex;
+  justify-content: space-between;
+}

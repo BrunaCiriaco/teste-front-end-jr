@@ -1,0 +1,40 @@
+.informacao {
+  width: 1442px;
+  height: 325px;
+  background: #2a2a2a;
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+.cadastrar {
+  display: flex;
+  align-items: center;
+  justify-items: end;
+  margin-left: 242px;
+}
+
+.rodape {
+  width: 1442px;
+  height: 70px;
+  background: #2a2a2a;
+  margin: 1px;
+  display: flex;
+}
+
+.txt-rodape {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  margin: 22px 0px 22px 93px;
+  height: 26px;
+  width: 698px;
+  text-align: start;
+}
+.patrocinadores {
+  width: 226.084px;
+  height: 32px;
+  margin: 19px 106.92px 19px 318px;
+}

@@ -1,0 +1,17 @@
+.pagamento {
+  width: 195px;
+  height: 192.545px;
+  margin: 59px 0px 42px 93px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+}
+.title-pagamento {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,214 @@
+.list-produto {
+  width: 1443px;
+  display: flex;
+  align-items: center;
+}
+.scroll-container {
+  overflow-x: hidden;
+  white-space: nowrap;
+  margin: 52px 4px 17px 6px;
+}
+
+.scroll-content {
+  display: flex;
+  height: 500px;
+}
+
+.card-produto {
+  width: 270px;
+  height: 491px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+  margin-left: 62px;
+}
+.img-produto {
+  width: 247px;
+  height: 228px;
+}
+.detalhes {
+  text-align: start;
+  margin-left: 11px;
+  font-family: Poppins;
+}
+.desconto-produto {
+  color: #808080;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.preco {
+  color: var(--preto, #3f3f40);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.parcela {
+  color: var(--preto, #3f3f40);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn-compra {
+  border: none;
+  width: 245px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--rosa-primario, #f71963);
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.setas {
+  border: none;
+  background: none;
+}
+.name-produto {
+  color: var(--preto, #3f3f40);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.logo {
+  width: 142px;
+  height: 142px;
+  display: flex;
+  margin: 0px 33px;
+}
+.modal {
+  background-color: white;
+  display: none;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 40px;
+  color: black;
+}
+.show {
+  display: block !important;
+}
+.closeDropdown {
+  display: none;
+}
+.principal-modal {
+  width: 769px;
+  height: 299.257px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+}
+.card-produtos {
+  margin: 50px;
+}
+.dtl-produto {
+  width: 328px;
+  margin-left: 87px;
+  text-align: justify;
+}
+.close-modal {
+  margin-top: 6px;
+  position: relative;
+  left: 70%;
+  border: none;
+  background: none;
+  font-size: 24px;
+}
+.nome-produto {
+  width: 328px;
+  height: 16.86px;
+  flex-shrink: 0;
+  color: var(--primria, #041e50);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
+.price-produto {
+  width: 119px;
+  height: 16.86px;
+  flex-shrink: 0;
+  color: var(--primria, #041e50);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
+.detalhe-produto {
+  width: 290px;
+  height: 18.546px;
+  flex-shrink: 0;
+  color: #222;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150.5%;
+  letter-spacing: 0.5px;
+}
+.veja-mais {
+  width: 187px;
+  height: 10.116px;
+  flex-shrink: 0;
+  color: #041e50;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.6px;
+}
+.compra {
+  display: flex;
+  flex-direction: column;
+}
+.input-compra {
+  width: 110px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #041e50;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.quantity-input {
+  position: relative;
+  right: 21px;
+}
+.menos {
+  color: #041e50;
+  position: relative;
+  left: 30px;
+  top: 6px;
+}
+.mais {
+  color: #041e50;
+  position: relative;
+  right: 30px;
+  top: 6px;
+}

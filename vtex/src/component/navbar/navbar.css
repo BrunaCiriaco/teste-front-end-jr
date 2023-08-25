@@ -1,0 +1,43 @@
+.retagulo249 {
+    width: 1280px;
+    height: 72px;
+    border-bottom: 1px solid #F0F0F0;
+    display: flex;
+    margin-left: 86px;
+    margin-right: 74px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo {
+    width: 139px;
+    height: 50.641px;
+    margin-left: 56px;
+
+}
+
+.search {
+    width: 657px;
+    height: 48px;
+    border-radius: 10px;
+    background: #F6F5F2;
+    border: none;
+    padding-left: 24px;
+    font-family: Poppins;
+    font-size: 14px;
+    background-image: url('../img/cabecalho/MagnifyingGlass.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.icon-option {
+    display: flex;
+    margin-right: 61px;
+}
+
+.icons-navbar {
+    width: 24px;
+    height: 24px;
+    padding-left: 32px;
+}
